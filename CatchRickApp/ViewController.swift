@@ -117,7 +117,7 @@ class ViewController: UIViewController {
             //HighScore İşlemleri
             if self.skor > self.highScore {
                 self.highScore = self.skor
-                highScoreLabel.text = "Highscore: \(self.highScore)"
+                highScoreLabel.text = "Highscoreee: \(self.highScore)"
                 UserDefaults.standard.set(self.highScore, forKey: "highscore")
             }
             
